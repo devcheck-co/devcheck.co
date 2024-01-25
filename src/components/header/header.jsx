@@ -1,5 +1,6 @@
 import instagramLogo from "../../assets/instagram-white-icon.svg";
 import youtubeLogo from "../../assets/youtube-white-icon.svg";
+import xLogo from "../../assets/x-white-icon.svg";
 
 import "./header.css";
 
@@ -46,6 +47,12 @@ export default function Header() {
             href="https://www.youtube.com/@devcheckco"
           >
             <img src={youtubeLogo} alt="link to YouTube channel" />
+          </a>
+          <a
+            className="header__social-link"
+            href="https://twitter.com/devcheckco"
+          >
+            <img src={xLogo} alt="link to X profile channel" />
           </a>
         </div>
       </div>
