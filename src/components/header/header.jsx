@@ -41,7 +41,10 @@ export default function Header() {
           >
             <img src={instagramLogo} alt="link to instagram profile" />
           </a>
-          <a className="header__social-link" href="www.youtube.com">
+          <a
+            className="header__social-link"
+            href="https://www.youtube.com/@devcheckco"
+          >
             <img src={youtubeLogo} alt="link to YouTube channel" />
           </a>
         </div>
