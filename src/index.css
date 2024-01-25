@@ -1,5 +1,5 @@
 :root {
-  font-family: 'Poppins', sans-serif;
+  font-family: 'Ubuntu', sans-serif;
   line-height: 1.5;
   font-weight: 400;
   color-scheme: light dark;
@@ -16,7 +16,6 @@
   --dark-blue: #202A58;
   --purple: #713C72;
   --pink: #BA5375;
-  --peach: #020202;
   --orange: #FFB65D;
   --yellow: #F9F871;
 }

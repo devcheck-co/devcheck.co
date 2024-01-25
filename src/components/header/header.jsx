@@ -39,18 +39,24 @@ export default function Header() {
           <a
             className="header__social-link"
             href="https://www.instagram.com/devcheck.co"
+            target="_blank"
+            rel="noreferrer"
           >
             <img src={instagramLogo} alt="link to instagram profile" />
           </a>
           <a
             className="header__social-link"
             href="https://www.youtube.com/@devcheckco"
+            target="_blank"
+            rel="noreferrer"
           >
             <img src={youtubeLogo} alt="link to YouTube channel" />
           </a>
           <a
             className="header__social-link"
             href="https://twitter.com/devcheckco"
+            target="_blank"
+            rel="noreferrer"
           >
             <img src={xLogo} alt="link to X profile channel" />
           </a>
