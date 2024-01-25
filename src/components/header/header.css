@@ -1,0 +1,105 @@
+.header {
+  position: relative;
+}
+
+.header__container {
+  background: url('../../assets/header-bg.svg');
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  color: #fff;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  padding: 50px;
+  height: 100vh;
+  min-height: 500px;
+}
+
+.header__banner {
+  background: #F9F871;
+  font-size: 20px;
+  padding: 15px;
+  position: absolute;
+  top: 0;
+  width: 100%;
+}
+
+.header__banner a {
+  color: #000;
+  padding: 0 10px;
+  transition: color .3s ease;
+}
+
+.header__banner a:hover {
+  color: #713C72;
+}
+
+.header__intro {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  max-width: 800px;
+}
+
+.header__intro a {
+  color: #F9F871;
+  text-decoration: none;
+  background-image: linear-gradient(#F9F871, #F9F871);
+  background-size: 100% 0px;
+  background-repeat: no-repeat;
+  background-position: 100% 0%;
+  transition: background-size .7s, background-position .5s ease-in-out, color 0.2s ease-in;
+}
+
+.header__intro a:hover {
+  color: #713C72;
+  background-size: 100% 100%;
+  background-position: 0% 100%;
+  transition: background-position .7s, background-size .5s ease-in-out;
+}
+
+.header__social-link {
+  display: inline-block;
+  margin: 15px;
+  width: 40px;
+}
+
+.header__social-link img {
+  transition: transform 0.3s ease-in-out;
+}
+
+.header__social-link img:hover {
+  transform: scale(1.1);
+}
+
+.header__title {
+  font-size: 50px;
+  margin-bottom: 30px;
+  text-shadow: 3px 3px 0px #713C72,
+    6px 6px 0px #BA5375,
+    9px 9px 0px #FFB65D,
+    12px 12px 0px #F9F871;
+}
+
+@media screen and (min-width: 425px) {
+  .header__title {
+    font-size: 70px;
+    text-shadow: 5px 5px 0px #713C72,
+      10px 10px 0px #BA5375,
+      15px 15px 0px #FFB65D,
+      20px 20px 0px #F9F871;
+  }
+}
+
+@media screen and (min-width: 900px) {
+  .header__title {
+    font-size: 150px;
+    text-shadow: 5px 5px 0px #713C72,
+      10px 10px 0px #BA5375,
+      15px 15px 0px #FFB65D,
+      20px 20px 0px #F9F871;
+  }
+}
